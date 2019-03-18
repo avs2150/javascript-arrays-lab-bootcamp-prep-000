@@ -17,3 +17,6 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
+function appendKitten(name){
+return [...kittens, name]
+}
